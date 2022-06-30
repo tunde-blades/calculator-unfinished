@@ -1,0 +1,64 @@
+#wholebody{
+    width: 45vw;
+    height: 60vh;
+    background: url(lighthouse.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 25vw;
+    top: 20vh;
+}
+header{
+    height: 15vh;
+    width: 45vw;
+    background-color: rgba(170, 165, 165, 0.788);
+    border-radius: 1em;
+}
+h3{
+    height: 2vh;
+}
+
+li{
+    line-height: 1.5em;
+    font-size: 1em;
+    list-style: none;
+    width: 5vw;
+    height: 3vh;
+    margin: .5em;
+    padding: .5em;
+    text-align: center;
+    border-radius: 1em;
+    background-color: rgb(160, 160, 160)
+}
+li:hover{
+    font-size: 1.1em;
+    border-radius: .4em;
+    transition: .5s;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    cursor: pointer;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -3.5vw;
+    
+
+}
+.numbs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.edit{
+    display: flex;
+    margin-top: -1em;
+}
+.signs{
+    margin-left: -3vh;
+}
+.signs li{
+    margin-bottom: 1em;
+}
